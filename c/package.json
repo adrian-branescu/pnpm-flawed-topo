@@ -1,0 +1,9 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "build": "echo 'Building c ...'"
+  }
+}

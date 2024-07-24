@@ -1,0 +1,11 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "b": "workspace:*"
+  },
+  "scripts": {
+    "build": "echo 'Building a ...'"
+  }
+}
