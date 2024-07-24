@@ -27,7 +27,7 @@ c build$ echo 'Building c ...'
 └─ Done in 22ms
 ```
 
-As you can observe, `a` is built before or at best concurrently with `c`, although `c` is a transitive dependecy of `a`.
+As you can observe, `a` is built before or at best concurrently with `c`, although `c` is a transitive dependency of `a`.
 
 ## Workaround - performance penalty
 If we include all dependents of `c` in the filter then the topological sort is correct, but we are building more workspaces than wanted:
